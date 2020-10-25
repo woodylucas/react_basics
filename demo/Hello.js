@@ -1,7 +1,10 @@
 class Hello extends React.Component {
     render() {
+        console.log('Props', this.props.to)
         return (
-            <h1>Hello There!!!</h1>
+            <div>
+                <h1>Hi {this.props.to}  from {this.props.from} </h1>
+            </div>
         )
     }
 }
