@@ -1,25 +1,13 @@
-// class Hello extends React.Component {
-//     render() {
-//         return (
-//             <div>
-//                 <h1>Hello there!</h1> 
-//                 <h1>Hello there!</h1> 
-//                 <h1>Hello there!</h1> 
-//             </div>
-//         )
-//     }
-// }
-
-function Hello() {
-    return (
-        <div>
-            <h1>Hello There!</h1>
-            <h1>Hello There!</h1>
-            <h1>Hello There!</h1>
-            <h1>Hello There!</h1>
-        </div>
-    );
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Hello />
+            </div>
+        );
+    }
 }
 
-ReactDOM.render(<Hello/>, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
